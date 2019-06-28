@@ -1,0 +1,2 @@
+python manage.py startapp contas
+python manage.py migrate
