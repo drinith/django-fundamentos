@@ -2,4 +2,7 @@ python manage.py startapp contas
 python manage.py migrate
 python manage.py runserver
 python manage.py createsuperuser
+python manage.py makemigrations
+#### resolveu o problema do comando de cima
+python manage.py migrate --run-syncdb
 ######## admin senha tradicional
